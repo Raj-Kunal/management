@@ -1,0 +1,47 @@
+
+  body {
+    line-height: 1;
+    margin: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+th {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 0.5em 0.5em;
+}
+
+td {
+    border-top: 5px solid #eee;
+    padding: 0.5em 0.5em;
+}
+
+input {
+    cursor: pointer;
+}
+
+/* Column types */
+th.missed-col {
+    width: max-content;
+    background-color: #f00;
+}
+
+td.missed-col {
+    background-color: #ffecec;
+    color: #f00;
+    text-align: center;
+}
+
+.name-col {
+    cursor: pointer;
+    text-align: left;
+}
